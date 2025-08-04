@@ -29,6 +29,9 @@ let package = Package(
         .library(
             name: "CocoaLumberjackSwiftLogBackend",
             targets: ["CocoaLumberjackSwiftLogBackend"]),
+        .library(
+            name: "CocoaLumberjackSwiftSupport",
+            targets: ["CocoaLumberjackSwiftSupport"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-log", from: "1.5.0"),
